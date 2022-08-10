@@ -1,0 +1,42 @@
+body{
+    background-image: url('img/bekgron_tv.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #000000;
+    border-radius: 2px;
+}
+  
+.card:hover {
+    transform: scale(1.02);
+}
+ 
+footer{
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next{
+    position:absolute;
+    top: 80px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 50px;
+    color: #000000;
+}
+
